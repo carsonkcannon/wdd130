@@ -45,16 +45,17 @@ file paths:
 meaning computer expect it to be in direcetory in file which refers it to¦ [./¤¤.html] works to same effect
 if in parent directory: [../¤¤.html]
 or beneath two subdirectories: [£/€/¤¤.html]
+interchangeable: directory, folder
 ---
 assuming shared in same main folder:
-file in ... folder/great ... grandchild: [€/€²/€³]{...}¤.¬
--file in sub-sub folder: [€/€²]¤.¬
+file in ...folder/great ... grandchild: [€/€²/€³]{...}¤.¬
+-file in sub-sub folder/grandchild: [€/€²]¤.¬
 -file in subfolder/child: [¥/]¤.¬
 -file in same/current folder: []¤.¬ *or* [./]¤.¬
--start in parent/upper folder: [../]¤
--or a higher one: [../../]¤
+-start in parent/upper folder: [../]¤.¬
+-or a higher one: [../../]¤.¬
 and so on
--start in root folder/uppermost directory: [./]¤
+-start in root folder/uppermost directory: [/]¤¬µ€
 ---
 file and naming conventions (best-practice rules)
 {can cause issues if rules broken| different standards amongst different organizations}
@@ -64,7 +65,7 @@ file and naming conventions (best-practice rules)
 {http ignores [ ]:except:file names:replaces [ ] with [%20]}
     #don't special characters (special to computers):
     special characters include:
-[<] [>] [\] [/] [#] [?] [!] ([_]for web design)
+[<] [>] [\] [/] [#] [?] [!] [_](for web) design)
 legal: numbers [-] 
     #folder names should be as short & meaningful as can
     #use standard names for folder
@@ -73,8 +74,19 @@ legal: numbers [-]
     (special note: for being professional for this class,
 {and for extra caution of incompatibility issues}, maybe don't use strange characters like
 "á" and especially not ones like "¤")
+------------------------------------------
+<header>
+    <nav>
+        <a href="(link address)">(hyperlink)</a>
 
+---
+<meta (thing)=(stuff)>
 
+------------------------------------------
+<img src="(photo link)" alt="(photo description)">
+-------
 
-    
+header cheat:
+type [html:]
+select [html:5]
 
