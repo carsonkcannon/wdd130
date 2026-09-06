@@ -1,0 +1,80 @@
+common image file types:
+.jpg / .jpeg :compresses repeating patterns for much less code (size)
+bit of info lost
+.gif: typically animation, only 256 colors, have transparency, but not alpha transparency, uses compression wich doesn't loos info
+(alpha transparency means it can have a degree of transparency)
+.png: if you want alpha transparency and compression
+.webp: developed to make images smaller, very good compression
+.svg: not resolution dependent (not used for photos as made of pixels)
+.heic: (uncommon for web as not well supported for web) 
+newer and default for iphones,compress better than jpg
+IMAGES ARE CRITICAL TO THE SUCCESS OF A WEBSITE
+
+alt text:
+useful for before image loads, or bots for searcch engines
+should have at least two words
+describe what image shows
+:) good: sunset over the beach
+:( bad: image over beach
+
+kind of alt text (both acceptible):
+descriptive: Whitewater Rafting company logo with dinamic
+blue water splash text and red paddles
+concise and funcional: Witewater Rafting logo
+
+usually, photos should be optimized (or even required actually)
+many website to do that, squoosh on eof them (and is free)
+
+
+----------------------------------------------------------
+file paths:
+    absolute paths:
+-always the same (regardless of source file)
+-give full path of file (used for external sources)
+-should begin with protocol (like "https://")
+    relative paths:
+-define how to find file relative to the location
+-ex: may be in same directory, subdirectory ,parent file etc. compared to source file
+-in target file same directory: can list file name directory, or start with "." for current directory  or ".." for parent directory
+-reference current directory: "¤.html" or "./¤.html"
+-reference to parent directory: "../¤.html"
+-to reference file beneath 2 subcatagoreies: "¤/¬/¶"
+
+-[¬.html] not begin with protocal 
+(not begin with  "." or "/")
+meaning computer expect it to be in direcetory in file which refers it to¦ [./¤¤.html] works to same effect
+if in parent directory: [../¤¤.html]
+or beneath two subdirectories: [£/€/¤¤.html]
+---
+assuming shared in same main folder:
+file in ... folder/great ... grandchild: [€/€²/€³]{...}¤.¬
+-file in sub-sub folder: [€/€²]¤.¬
+-file in subfolder/child: [¥/]¤.¬
+-file in same/current folder: []¤.¬ *or* [./]¤.¬
+-start in parent/upper folder: [../]¤
+-or a higher one: [../../]¤
+and so on
+-start in root folder/uppermost directory: [./]¤
+---
+file and naming conventions (best-practice rules)
+{can cause issues if rules broken| different standards amongst different organizations}
+    #use all lowercase syntax 
+    #use hyphens [-](this isn’t python), NOT spaces [ ]
+(browser and other tools may handle spaces inconsistently)
+{http ignores [ ]:except:file names:replaces [ ] with [%20]}
+    #don't special characters (special to computers):
+    special characters include:
+[<] [>] [\] [/] [#] [?] [!] ([_]for web design)
+legal: numbers [-] 
+    #folder names should be as short & meaningful as can
+    #use standard names for folder
+    for this class, standard subfolder names:
+[styles](contains CSS files) [images](contains images)
+    (special note: for being professional for this class,
+{and for extra caution of incompatibility issues}, maybe don't use strange characters like
+"á" and especially not ones like "¤")
+
+
+
+    
+
