@@ -90,3 +90,9 @@ header cheat:
 type [html:]
 select [html:5]
 
+---
+<title>¤</title>
+<meta name="description" content="¤">
+<meta name"author" content ="¤">
+--
+aside: content related to main content but seperate
