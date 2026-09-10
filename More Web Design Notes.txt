@@ -1,0 +1,17 @@
+important note: I will be using stuff in «» as filler wards for stuff in this document and [] to store info:
+
+comments: /*«comment stuff»*/
+try keep css seperate from html
+exept for inserting css file code into html pages (under head section):
+	<link rel="«stylesheet»" href=«styles.css»">
+|-after selector, declaration blocks[{}] contain declarations seperated by [;]   
+- declaration is  property + [:] + value
+ex: 
+h1 {
+	backround-color: darkblue;
+	color: white; padding: 16px;
+	text-align: center;
+}
+|ex of code line:	box-shadow: 0 0 30px gray;
+css is in english (spelling stuff right like "backround" matters)
+

@@ -1,3 +1,5 @@
+notes: I will be using parentheses for filler words
+
 common image file types:
 .jpg / .jpeg :compresses repeating patterns for much less code (size)
 bit of info lost
