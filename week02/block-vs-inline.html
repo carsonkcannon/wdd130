@@ -11,29 +11,41 @@
 <body>
     <main>
         <h1>Exercise: Block vs. Inline Elements</h1>
-        <p class="note">Some basic styling has been applied in order to illustrate the elements structure and
+        <p class="note">Some basic styling has been applied in order to illustrate the elements
+            structure and
             boundaries.</p>
 
         <h2>Task 1: Swap Block and Inline Elements</h2>
-        <div>In the HTML of this document, change this div element to a span element.</div>
+        <span>In the HTML of this document, change this div element to a span element.</span>
 
         <p class="question">What happens to the layout? Does it still take up the full width?</p>
-
+        <!--Not quite (right cushioned)-->
         <h2>Task 2: Nesting Inline in Block</h2>
         <p>A paragraph &lt;p&gt; element (block) with a <span>&lt;span&gt; element;</span></p>
-        <p class="question">Add another inline element like &lt;em&gt; or &lt;strong&gt; inside the paragraph. Observe
+        <p class="question">Add another inline element like &lt;em&gt; or &lt;strong&gt; <em>inside
+                the paragraph. </em>Observe
             how it flows within the line.</p>
-
+        <!--</em> italicizes stuff-->
         <h2>Task3: Nesting Block in Inline</h2>
-        <span>Try placing a &lt;div&gt; inside a &lt;span&gt; element.</span>
-            <p class="question">What error or layout issue do you see? Why does this happen?</p>
+        <span>
+            <div>Try placing a &lt;div&gt; inside a &lt;span&gt; element.</div>
+        </span>
+        <p class="question">What error or layout issue do you see? Why does this happen?</p>
+        <!--The text is blue. Whatever made the last part of the text blue now makes the whole thing such, but the light blue highliting over the text is gone. There must have been an element restricter (likely indirect) and an element applier I canceled out.-->
 
 
-            <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
+        <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
         &lt;img&gt; element
-        <img src="images/castle.webp" alt="placeholder image (images are inline)" width="300" height="300">
-        <a href="https://churchofjesuschrist.org">&lt;a&gt; anchor element</a>
-        <button type="button">&lt;button&gt; element</button>
+        <!--
+        &lt; <
+        &gt; >
+        -->
+        <img src="images/castle.webp" alt="placeholder image (images are inline)" width="300"
+          height="300">
+        <a href="https://churchofjesuschrist.org">&lt;a&gt; anchor
+            element</a><!--link/"a" element-->
+        <button type="button">&lt;button&gt; element</button><!--button-->
+        <!--label-hidden data goes in quotes in first <>, displayed text goes between the <> pairs unquoted-->
     </main>
 </body>
 

@@ -16,3 +16,9 @@ h1 {
 css is in english (spelling stuff right like "backround" matters)
 
 
+
+
+-
+https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Content_categories 
+
+https://htmlreference.io/
