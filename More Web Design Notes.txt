@@ -15,3 +15,4 @@ h1 {
 |ex of code line:	box-shadow: 0 0 30px gray;
 css is in english (spelling stuff right like "backround" matters)
 
+
