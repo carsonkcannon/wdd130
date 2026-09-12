@@ -10,19 +10,52 @@ nav a {
 	padding: 20 px;
 }
 
-/**/
-h1 {
-	color: darkblue;
+main {
+	min-width: 150px;
+	max-width: 72%;
+	margin: 0;
+	border: 0;
+	padding: 1rem;
+	background-color: #fdfdfd;
+	color: #00000f;
+	text-align: auto;
 }
 
-img {
+aside {
+	min-width: 100px;
+	max-width: 200px;
+	margin: 0;
+	border: 0;
+	padding: 5%;
+	background-color: #aafffa;
+	color: #00000f;
+	text-align: center;
+}
+
+/**/
+h1 {
+	color: #003366;
+}
+
+main img {
 	width: 150px;
 	height: auto;
 	border: 1 px solid black;
 	padding: 2px;
-	box-shadow: 0 0 30px gray;
+	box-shadow: 0 1px 30px gray;
 }
 
 p {
 	padding: 10 px;
+}
+
+footer {
+	min-width: 10%;
+	max-width: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: none;
+	color: #00000f;
+	text-align: center;
 }
