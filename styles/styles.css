@@ -30,7 +30,7 @@ main img {
 }
 
 aside {
-	width: 150px;
+	width: 240px;
 	margin: 0;
 	border: 0;
 	padding: .0007rem;
@@ -40,7 +40,7 @@ aside {
 }
 
 aside img {
-	width: 80%;
+	width: 200px;
 	height: auto;
 }
 
@@ -55,8 +55,9 @@ p {
 footer {
 	width: 80%;
 	height: auto;
-	margin: 0;
-	padding: 0 0 0 10%;
+	margin-top: 24px;
+	border-top: 1px solid #000000;
+	padding: 0 10% 0 10%;
 	color: #00000f;
 	text-align: center;
 }
