@@ -1,38 +1,41 @@
 nav {
-	background-color: darkblue;
+	background-color: #000088;
 	padding: 10px;
 	/**/
 }
 
 nav a {
-	color: white;
+	color: #ffffff;
 	display: block;
-	padding: 20 px;
+	padding: 20px;
 }
 
 main {
-	min-width: 150px;
-	max-width: 72%;
+	min-width: 170px;
+	max-width: 92%;
 	margin: 0;
 	border: 0;
-	padding: 1rem;
+	padding: 6px;
 	background-color: #fdfdfd;
 	color: #00000f;
 	text-align: auto;
 }
 
 aside {
-	min-width: 100px;
-	max-width: 200px;
+	width: 150px;
 	margin: 0;
 	border: 0;
-	padding: 5%;
-	background-color: #aafffa;
+	padding: .0007rem;
+	background-color: #acfffc;
 	color: #00000f;
 	text-align: center;
 }
 
-/**/
+aside img {
+	width: 80%;
+	height: auto;
+}
+
 h1 {
 	color: #003366;
 }
@@ -40,22 +43,20 @@ h1 {
 main img {
 	width: 150px;
 	height: auto;
-	border: 1 px solid black;
+	border: 1px;
 	padding: 2px;
-	box-shadow: 0 1px 30px gray;
+	box-shadow: 0 1px 30px #888888;
 }
 
 p {
-	padding: 10 px;
+	padding: 0;
 }
 
 footer {
-	min-width: 10%;
-	max-width: 100%;
+	width: 80%;
+	height: auto;
 	margin: 0;
-	border: 0;
-	padding: 0;
-	background-color: none;
+	padding: 0 0 0 10%;
 	color: #00000f;
 	text-align: center;
 }
