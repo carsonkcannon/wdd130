@@ -54,10 +54,27 @@ footer {
 	border-top: 1px solid #000;
 	padding: 0.5rem;
 	color: navy;
+	opacity: 100%;
 	font-weight: 700;
 	font-style: italic;
 }
 
 fill-switch {
-	color: #eeeeee
+	color: #cc4400;
+	font-weight: 700;
+	font-style: italic;
 }
+
+/*the "fill-switch" is 
+turned on or off in "overlay.html"
+by deleting or adding
+the last character of the comment,
+being ">",
+add the ">" to turn it on,
+and delete the ">" to it off
+|the purpose of the "fill-switch"
+is too demonstrate the effectiviness
+of the fixed-locking for the footer
+by making extra room to scroll down,
+and to demonstrate it's ability to cover
+information that occupies it's space*/
