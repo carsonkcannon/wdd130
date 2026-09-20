@@ -1,0 +1,94 @@
+/*
+margin:  ; the de-facto perimeter
+border:  ; the apparent perimeter
+padding: ; the white-space cushioning
+content: ; the stuff (to frame)
+*/
+
+:root {
+	--primary-color: #055a05ff;
+	--secondary-color: #f4a261ff;
+	--accent1-color: #264653ff;
+	--accent2-color: #e9c46a;
+	--heading-font:
+		"Times New Roman", "Georgia", serif;
+	--body-font:
+		Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: var(--primary-color);
+	color: var(--accent2-color);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--body-font);
+	color: var(--accent1-color);
+}
+
+header, main, footer {
+	width: 840px;
+	margin: 0 auto;
+	/*font-size: auto;*/
+}
+
+h1, h2 {
+	font-family: var(--heading-font);
+	color: var(--primary-color);
+}
+
+nav, p, section, article {
+	margin: 16px;
+	padding: 8px;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.hero {
+	position: relative;
+}
+
+.hero img {
+	/*div background img*/
+	display: block;
+	width: 100%;
+	height: auto;
+	/*position: relative;*/
+}
+
+/*.hero*/
+h1 {
+	position: absolute;
+	top: 20px;
+	/*left: 0.5px;*/
+	width: 92%;
+	padding: 16px;
+	text-align: center;
+	opacity: 0.75;
+	background-color: var(--accent-color);
+	color: #fefdfcff
+}
+
+.hero article img {
+	float: right;
+	position: absolute;
+	width: 128px;
+	left: 0.5px;
+	top: 0.5px;
+}
+
+.hero article p {
+	position: absolute;
+	width: 70%;
+	left: 0.5px;
+	top: 0.5px;
+	text-size-adjust: 8px;
+}

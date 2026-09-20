@@ -1,0 +1,28 @@
+i5:1::CHECK YOUR UNDERSTANDING!
+<!--
+style the div 
+	with the class of hero 
+		with a relative value 
+	so that its children elements 
+		h1 and article
+			can be positioned 
+			over the top absolute within that div!*/
+
+<div class="hero"> | i
+			<img src="images/hero-img.webp" | 29-35 good
+			  alt="description of image | ...
+			  (meant for div background)"> | ...
+				36
+			<h1>White Water Rafting</h1> | 37-41
+				42
+			F!N!
+			<article> | 43-47
+				48
+				<img src="images/customer.webp" | 49-53
+				  alt="happy client photo"> | ...
+				  54
+				<p>our purpose | 55-59
+				sss ss ssss ssss ssss s sssss |...
+				</p> | NA
+			</article> | ...
+		</div> | ...
