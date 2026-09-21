@@ -25,6 +25,7 @@ header {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	background-color: #f9f9f9ff;
 }
 
 body {
@@ -44,8 +45,9 @@ h1, h2 {
 }
 
 nav, p, section, article {
-	margin: 16px;
-	padding: 8px;
+	margin: 0px;
+	padding: 20px;
+	background-color: default;
 }
 
 .social-media a {
@@ -61,34 +63,78 @@ nav, p, section, article {
 	display: block;
 	width: 100%;
 	height: auto;
-	/*position: relative;*/
+	padding: 0 auto;
 }
 
 /*.hero*/
 h1 {
+	/*the title of the hero section:
+	"White River Rafting"*/
 	position: absolute;
 	top: 20px;
-	/*left: 0.5px;*/
-	width: 92%;
-	padding: 16px;
+	left: 33.3%;
+	width: 40%;
+	margin: 0%;
 	text-align: center;
-	opacity: 0.75;
 	background-color: var(--accent-color);
-	color: #fefdfcff
+	padding: 2px;
+	background-color: #003080c8;
+	color: #ffe8d8ff;
 }
 
 .hero article img {
-	float: right;
+	margin: 0px;
 	position: absolute;
 	width: 128px;
-	left: 0.5px;
-	top: 0.5px;
+	top: 50%;
+	left: 80%
 }
 
 .hero article p {
 	position: absolute;
-	width: 70%;
-	left: 0.5px;
-	top: 0.5px;
-	font-size: 10px;
+	padding: 3.2%;
+	background-color: #dffddcd8;
+	width: 75%;
+	left: 26px;
+	top: 47.3%;
+	color: #100108ff;
+}
+
+.social-media {
+	padding: 0%;
+}
+
+footer {
+	position: relative;
+	margin: 0%;
+	padding: 18px;
+	background-color: #ffffff;
+	width: 100%
+}
+
+.source {
+	background-color: #ffffffff;
+}
+
+.social-media img {
+	height: auto;
+	padding: 16px;
+	position: absolute;
+	width: 100px;
+	background-color: #ffffffff;
+}
+
+.facebook {
+	top: 0px;
+	left: 50%;
+}
+
+.linkedin {
+	top: 0px;
+	left: 60%;
+}
+
+.instagram {
+	top: 0px;
+	left: 70%;
 }
