@@ -1,0 +1,135 @@
+main h1 {
+	font-family: times;
+	border-bottom: 1px solid #204040ff;
+
+}
+
+header, .grid, footer {
+	margin: 0 auto;
+}
+
+.grid {
+	display: grid;
+	align-items: center;
+}
+
+main img {
+	width: 150px;
+
+	height: auto;
+	border: 1px 1px 1px 1px;
+	padding: 2px 2.2px 1.4px 1.5px;
+	box-shadow: 12px -12px 64px 2px #02001299;
+	margin: 2.% 2.2% 2.2% 2.2%;
+	position: grid;
+	grid-column: 3/3;
+	grid-row: 1/3;
+}
+
+main {
+	min-width: 40px;
+	max-width: 100%;
+	/*margin: 0;
+	border: 0;*/
+	padding: 0px;
+	color: #00000fff;
+	text-align: left;
+	background-color: #fafafaff;
+	font-family: roboto;
+	font-size: 16px;
+	display: grid;
+}
+
+main p {
+	margin: 0% 0% 0% 0%;
+	align-items: center;
+	grid-column: 3/3;
+	grid-row: 3/5;
+}
+
+aside {
+	width: 20rem;
+	position: relative;
+	grid-column: 3/2;
+	grid-row: 1/1;
+
+}
+
+ul {
+	margin: 1rem;
+	grid-column: 1/1;
+	grid-row: 1/1;
+}
+
+img {
+	width: 200px;
+	height: auto;
+	margin: 1%;
+
+}
+
+aside h2 {
+	position: absolute;
+	margin: 0;
+	left: 3.5px;
+	top: 0;
+	font-family: Times;
+}
+
+h1 {
+	color: #003366ff;
+}
+
+p {
+	padding: 0% 0% 2.5% 0%;
+}
+
+aside p {
+	font-family: Roboto;
+	font-size: 15px
+}
+
+aside {
+	width: 240px;
+	margin: 1rem;
+	border: 1px solid #00000477;
+	background-color: #d5fffaff;
+	padding: 2rem 1rem 1rem 1rem;
+	color: #0a0000;
+	text-align: center;
+	position: absolute;
+	top: 180px;
+
+}
+
+footer {
+	width: 80%;
+	height: auto;
+	margin-top: 24px;
+	border-top: 1px solid #000000ff;
+	padding: 0 10% 0 10%;
+	color: #00000fff;
+	text-align: center;
+	box-sizing: content-box;
+	font-family: 'Times';
+	font-size: 14px;
+	position: relative;
+	top: 50px;
+
+}
+
+.aox {
+	border: 1px solid #00000477;
+	background-color: #d5fffaff;
+	padding: 1.5rem;
+	color: #040000;
+	width: 240px;
+
+	font-size: 15.5px;
+
+	line-height: 150%;
+}
+
+li a {
+	font-family: georgia;
+}

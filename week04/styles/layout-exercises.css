@@ -19,21 +19,31 @@ div {
 .one {
     width: 200px;
     height: 200px;
+
 }
 
 .flex {
     background-color: #aba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* write declarations here */
 
 }
 
 .grid {
     background-color: #abb;
-    /* enter declarations here */
+    display: grid;
+    place-items: center;
+
+    /* write declarations here */
 
 }
 
 .container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     /* write declarations here */
 
 }
@@ -44,11 +54,14 @@ div {
 }
 
 .container3 {
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
     /* write declarations here */
 
 }
 
 .columns-3 {
+    grid-area: 1/1/1/4;
     /* write declaration here */
 
 }
