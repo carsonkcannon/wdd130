@@ -6,24 +6,23 @@ content: ; the stuff (to frame)
 */
 
 :root {
-	--primary-color: #055a05ff;
-	--secondary-color: #f4a261ff;
-	--accent1-color: #264653ff;
-	--accent2-color: #e9c46a;
+	--primary-color: #003000ff;
+	--secondary-color: #ffe2feff;
+	--accent-color1: #003080c8;
+	--accent-color2: #ffffffff;
 	--heading-font: "Times New Roman", "Georgia", serif;
 	--body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
 	background-color: var(--primary-color);
-	color: var(--accent2-color);
+	color: var(--secondary-color);
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: #f9f9f9ff;
 }
 
 body {
@@ -40,13 +39,22 @@ header, main, footer {
 h1, h2 {
 	font-family: var(--heading-font);
 	color: var(--primary-color);
+	text-align: center;
+	background-color: var(--secondary-color);
+	padding: 3px;
 }
 
 nav, p, section, article {
 	margin: -4px;
 	padding: 20px;
-	background-color: default;
 }
+
+nav {
+	background-color: var(--accent-color2)
+
+}
+
+
 
 .socialmedia a {
 	text-decoration: none;
@@ -61,8 +69,9 @@ nav, p, section, article {
 	display: block;
 	width: 100%;
 	height: auto;
-	padding: 0;
 }
+
+
 
 /*.hero*/
 h1 {
@@ -74,30 +83,34 @@ h1 {
 	width: 40%;
 	margin: 0%;
 	text-align: center;
-	background-color: var(--accent-color);
+	background-color: var(--accent-color1);
 	padding: 2px;
 	/*background-color: #003080c8;*/
-	/*color: #ffe8d8ff;*/
-	color: #ffffff
+	color: var(--accent-color2);
+	/* color: #ffffff */
 }
+
 
 .hero article img {
 	margin: 0px;
-	position: absolute;
 	width: 127px;
-	top: 46.5%;
-	left: 78.9%
+	/*top: 46.5%;
+	left: 78.9%;*/
+	float: right;
+	/* position: absolute; */
 }
 
 .hero article p {
 	position: absolute;
 	padding: 3.28%;
-	background-color: #dffddcd8;
+	background-color: var(--accent-color1);
 	width: 75.1%;
-	left: 4.1%;
-	top: 47.12%;
-	color: #100108ff;
+	/* left: 4.1%;
+	top: 47.12%; */
+	color: var(--accent-color2);
 }
+
+
 
 .socialmedia {
 	padding: 0%;
@@ -107,13 +120,13 @@ footer {
 	position: relative;
 	padding: 0% 0% 0% 100%;
 	padding: 18px;
-	background-color: #ffffff;
+	background-color: var(--accent-color2);
 	width: 840px;
 
 }
 
 .source {
-	background-color: #ffffffff;
+	background-color: var(--accent-color2);
 }
 
 .socialmedia img {
@@ -121,7 +134,7 @@ footer {
 	padding: 16px;
 	position: absolute;
 	width: 100px;
-	background-color: #ffffffff;
+	
 }
 
 .facebook {
