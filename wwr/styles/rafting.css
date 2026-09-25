@@ -32,7 +32,6 @@ header img{
 header .flex-container {
 	/*flex-container*/
 	grid-column: 3/3;
-	font-size: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -80,24 +79,35 @@ nav, p, section, article {
 	padding: 20px;
 }
 
+
+
 .history-flex-container{
 	display: flex;
+	align-content: center;
 }
 
-.rivers-imgs{
+.rivers {
 	display: flex;
+	padding-left: 10%;
 }
 
-.rivers-imgs img{
-	width: 50%;
+.rivers img{
+	width: 6em;
 	height: auto;
+	margin: 1rem;
+	align-items: center;
 }
 
-section img {
+
+
+.history-img {
 	width: 30%;
 	height: auto;
 	align-self: center;
 }
+
+
+section img
 
 nav {
 	background-color: var(--accent-color2)
