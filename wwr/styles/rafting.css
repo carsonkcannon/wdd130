@@ -29,7 +29,7 @@ header img{
 	
 }
 
-header .flex-container nav {
+header .flex-container {
 	/*flex-container*/
 	grid-column: 3/3;
 	font-size: auto;
@@ -39,6 +39,8 @@ header .flex-container nav {
 	flex-direction: row;
 	background-color: var(--primary-color);
 	margin: 0;
+	width: auto;
+	flex-wrap: nowrap;
 }
 
 /*flex-items*/
@@ -80,12 +82,20 @@ nav, p, section, article {
 
 .history-flex-container{
 	display: flex;
-	flex-wrap: nowrap;
+}
+
+.rivers-imgs{
+	display: flex;
+}
+
+.rivers-imgs img{
+	width: 50%;
+	height: auto;
 }
 
 section img {
-	width: 300px;
-	height: 200px;
+	width: 30%;
+	height: auto;
 	align-self: center;
 }
 
