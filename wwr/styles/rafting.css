@@ -51,10 +51,7 @@ nav, p, section, article {
 
 nav {
 	background-color: var(--accent-color2)
-
 }
-
-
 
 .socialmedia a {
 	text-decoration: none;
@@ -71,10 +68,8 @@ nav {
 	height: auto;
 }
 
-
-
 /*.hero*/
-h1 {
+hero h1 {
 	/*the title of the hero section:
 	"White River Rafting"*/
 	position: absolute;
@@ -90,27 +85,29 @@ h1 {
 	/* color: #ffffff */
 }
 
+.hero article {
+	position: absolute;
+	top: 50%;
+
+}
 
 .hero article img {
 	margin: 0px;
-	width: 127px;
+	width: 128px;
 	/*top: 46.5%;
 	left: 78.9%;*/
 	float: right;
+
 	/* position: absolute; */
 }
 
 .hero article p {
-	position: absolute;
-	padding: 3.28%;
+	padding: 40px;
 	background-color: var(--accent-color1);
-	width: 75.1%;
 	/* left: 4.1%;
 	top: 47.12%; */
 	color: var(--accent-color2);
 }
-
-
 
 .socialmedia {
 	padding: 0%;
@@ -134,7 +131,7 @@ footer {
 	padding: 16px;
 	position: absolute;
 	width: 100px;
-	
+
 }
 
 .facebook {
