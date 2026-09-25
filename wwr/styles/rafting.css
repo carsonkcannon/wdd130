@@ -15,8 +15,37 @@ content: ; the stuff (to frame)
 }
 
 header {
+	/*img + nav ul*/
 	background-color: var(--primary-color);
 	color: var(--secondary-color);
+	display: grid;
+	grid-template-columns: 16px 256px 1fr;
+}
+
+header img{
+	width: 256px;
+	height: auto;
+	grid-column: 2/2;
+	
+}
+
+header .flex-container nav {
+	/*flex-container*/
+	grid-column: 3/3;
+	font-size: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	background-color: var(--primary-color);
+	margin: 0;
+}
+
+/*flex-items*/
+header .flex-item {
+padding: 16px;
+border: 4px solid var(--primary-color);
+background-color: var(--accent-color2);
 }
 
 * {
@@ -49,6 +78,17 @@ nav, p, section, article {
 	padding: 20px;
 }
 
+.history-flex-container{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+section img {
+	width: 300px;
+	height: 200px;
+	align-self: center;
+}
+
 nav {
 	background-color: var(--accent-color2)
 }
@@ -69,13 +109,12 @@ nav {
 }
 
 /*.hero*/
-hero h1 {
+h1 {
 	/*the title of the hero section:
 	"White River Rafting"*/
 	position: absolute;
-	top: 20px;
-	left: 33.3%;
-	width: 40%;
+	top: 12%;
+	width: 100%;
 	margin: 0%;
 	text-align: center;
 	background-color: var(--accent-color1);
@@ -84,6 +123,8 @@ hero h1 {
 	color: var(--accent-color2);
 	/* color: #ffffff */
 }
+
+
 
 .hero article {
 	position: absolute;
