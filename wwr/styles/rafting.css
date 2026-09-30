@@ -88,8 +88,10 @@ nav, p, section, article {
 .rivers img {
 	width: 8em;
 	height: 8em;
-	/*the photos were almost perfectly square
-	prior to stretching them to a perfect square*/
+	/*I know "height: auto" is good practice for images,
+	but NEGLIGIBLE DISTORTION was INTENTIONALLY CREATED
+	to ACHIEVE UNIFORM DIMENSIONS across photos OTHERWISE
+	only NEARLY PERFECTLY SQUARE images*/
 	margin: 16px;
 	align-items: center;
 }
