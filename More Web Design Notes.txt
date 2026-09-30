@@ -13,7 +13,7 @@ h1 {
 	text-align: center;
 }
 |ex of code line:	box-shadow: 0 0 30px gray;
-css is in english (spelling stuff right like "backround" matters)
+css is in english (spelling stuff right like "background" matters)
 
 
 

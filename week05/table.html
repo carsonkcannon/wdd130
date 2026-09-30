@@ -1,8 +1,67 @@
-<table>
-	<thead>
-	</thead>
-	<tbody>
-	</tbody>
-	<tfoot>
-	</tfoot>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Table</title>
+	<link rel="stylesheet" href="styles/table.css">
+
+</head>
+<figure>
+	<table>
+		<thead>
+			<tr class="dark">
+				<th>League</th> <!--th1-->
+				<th>Team</th> <!--th2-->
+				<th>Record</th> <!--th3-->
+				<th>Player Count</th> <!--th4-->
+			</tr>
+		</thead>
+		<tbody>
+			<tr> <!--tr1-->
+				<th rowspan="2">Southern</th> <!--td1-->
+				<td>Parana</td> <!--td2-->
+				<td>52-19</td> <!--td3-->
+				<td>23</td> <!--td4-->
+			</tr>
+			<tr class="fill"> <!--tr2-->
+				<!-- <td></td> td1 -->
+				<td>Catarina</td> <!--td2-->
+				<td>49-24</td> <!--td3-->
+				<td>10</td> <!--td4-->
+			</tr>
+			<tr> <!--tr3-->
+				<th rowspan="3">Western</th> <!--td1-->
+				<td>Lacerda</td> <!--td2-->
+				<td>92-70</td> <!--td3-->
+				<td>27</td> <!--td4-->
+			</tr>
+			<tr class="fill"> <!--tr4-->
+				<!-- <td></td> td1 -->
+				<td>Acre</td> <!--td2-->
+				<td>75-87</td> <!--td3-->
+				<td>20</td> <!--td4-->
+			</tr>
+			<tr> <!--tr5-->
+				<!-- <td></td> td1 -->
+				<td>Rondonia</td> <!--td2-->
+				<td>10-7</td> <!--td3-->
+				<td>12</td> <!--td4-->
+			</tr>
+		</tbody>
+		<tfoot class="dark">
+			<th colspan="3">Total Players</th> <!--td1-->
+			<!-- <td></td> td2 -->
+			<!-- <td></td> td3 -->
+			<td>92</td> <!--td4-->
+		</tfoot>
+	</table>
+
+</figure>
+<figcaption>
+	The Table
+</figcaption>
+
+</html>

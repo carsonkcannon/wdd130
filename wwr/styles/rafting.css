@@ -22,11 +22,11 @@ header {
 	grid-template-columns: 16px 256px 1fr;
 }
 
-header img{
+header img {
 	width: 256px;
 	height: auto;
 	grid-column: 2/2;
-	
+
 }
 
 header .flex-container {
@@ -44,9 +44,9 @@ header .flex-container {
 
 /*flex-items*/
 header .flex-item {
-padding: 16px;
-border: 4px solid var(--primary-color);
-background-color: var(--accent-color2);
+	padding: 16px;
+	border: 4px solid var(--primary-color);
+	background-color: var(--accent-color2);
 }
 
 * {
@@ -79,26 +79,20 @@ nav, p, section, article {
 	padding: 20px;
 }
 
-
-
-.history-flex-container{
-	display: flex;
-	align-content: center;
-}
-
 .rivers {
-	display: flex;
-	padding-left: 10%;
+	display: grid;
+	grid-template: 1fr/repeat(5, 1fr);
+	text-align: center;
 }
 
-.rivers img{
-	width: 6em;
-	height: auto;
-	margin: 1rem;
+.rivers img {
+	width: 8em;
+	height: 8em;
+	/*the photos were almost perfectly square
+	prior to stretching them to a perfect square*/
+	margin: 16px;
 	align-items: center;
 }
-
-
 
 .history-img {
 	width: 30%;
@@ -106,10 +100,7 @@ nav, p, section, article {
 	align-self: center;
 }
 
-
-section img
-
-nav {
+section img nav {
 	background-color: var(--accent-color2)
 }
 
@@ -143,8 +134,6 @@ h1 {
 	color: var(--accent-color2);
 	/* color: #ffffff */
 }
-
-
 
 .hero article {
 	position: absolute;
