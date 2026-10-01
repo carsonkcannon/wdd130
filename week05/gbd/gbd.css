@@ -1,0 +1,119 @@
+/*
+Roboto
+Edu TAS Beginner
+Special Elite
+*/
+
+body {
+	font: 1.3rem sans-serif;
+	padding: 0.5em;
+	margin: 0;
+	background: #222222;
+	font-size: rem;
+	color: #09010f;
+}
+
+form {
+	position: relative;
+	width: 740px;
+	height: 498px;
+	margin: 0 auto;
+	padding: 1em;
+	box-sizing: border-box;
+	background: url("gbd.png");
+
+	/* we create our grid */
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 10em 1em 1em 1em;
+}
+
+h1 {
+	font:
+		1em "Special Elite",
+		monospace;
+	align-self: end;
+}
+
+#message {
+	grid-row: 1 / 5;
+}
+
+#from,
+#reply {
+	display: flex;
+}
+
+label {
+	font:
+		0.8em "Special Elite",
+		sans-serif;
+}
+
+input,
+textarea {
+	font:
+		1em "Edu TAS Beginner",
+		cursive,
+		sans-serif;
+	border: none;
+	width: 80%;
+	height: 150%;
+	background: none;
+	color: #040111;
+}
+
+.from input,
+textarea {
+	margin: -10px 20px;
+}
+
+.reply input,
+textarea {
+	margin: 4px 20px;
+}
+
+input:focus,
+textarea:focus {
+	background: rgb(0 0 0 / 10%);
+	border-radius: 5px;
+}
+
+textarea {
+	display: block;
+
+	padding: 10px;
+	margin: 10px 0 0 -10px;
+	width: 100%;
+	height: 100%;
+
+	border-right: 1px solid;
+
+	/* resize  : none; */
+	overflow: auto;
+}
+
+textbox-area {
+	height: 150%;
+}
+
+button {
+	padding: 5px;
+	font: bold 0.6em sans-serif;
+	border: 2px solid #333333;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+	transform: rotate(-1.5deg);
+}
+
+button::after {
+	content: " >>>";
+}
+
+button:hover,
+button:focus {
+	background: black;
+	color: white;
+}
