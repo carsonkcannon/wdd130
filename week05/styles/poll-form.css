@@ -1,0 +1,170 @@
+:root {
+	--fill: #fafeff;
+	--ink: #003040;
+	--black: #000000;
+	--sheet: #f8f8f8;
+	--border: #c0c4c4;
+	--legend: #283838;
+	--ends: #333333;
+	--edge: #b0b8b8;
+	--button: #10d010;
+	--hover: #00ff00;
+}
+
+* {
+	margin-top: 0;
+	padding: 2px;
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
+body {
+	margin-top: 12px;
+	display: grid;
+}
+
+.center {
+	grid-column: 2;
+	width: 400px;
+	font-size: 16px;
+}
+
+header {
+	font-family: times;
+	color: var(--ends);
+	padding-bottom: 42px;
+}
+
+h1 {
+	font-size: 21.8px;
+	font-weight: normal;
+	font-family: 'lucida sans';
+}
+
+form {
+	width: 355px;
+	padding: 1rem;
+	border: 1px solid var(--edge);
+	border-radius: 0.5rem;
+	background-color: var(--sheet);
+	display: grid;
+}
+
+.fullname {
+	display: grid;
+	color: var(--ink);
+	margin-top: 4px;
+}
+
+#fullname {
+	display: grid;
+	background-color: var(--fill);
+	color: var(--ink);
+	margin-top: 4px;
+}
+
+.email {
+	display: grid;
+	color: var(--black);
+	margin-top: 4px;
+}
+
+#email {
+	display: grid;
+	color: var(--black);
+	margin-top: 4px;
+}
+
+.dropdown {
+	color: var(--ink);
+	margin-top: 4px;
+}
+
+#dropdown {
+	display: grid;
+	background-color: var(--fill);
+	color: var(--ink);
+	margin-top: 4px;
+}
+
+.feedback {
+	display: grid;
+	color: var(--black);
+	margin-top: 4px;
+}
+
+#feedback {
+	display: grid;
+	color: var(--black);
+	margin-top: 4px;
+}
+
+.checkbox {
+	margin-left: 2px;
+	width: 305px;
+	display: grid;
+	color: var(--ink);
+	margin-top: -16px;
+	border: 1px solid var(--ink);
+
+}
+
+#checkbox {
+	grid-column: 2;
+	margin-top: 2px;
+}
+
+fieldset {
+	border: var(--border) solid 1.5px;
+	width: 300px;
+
+}
+
+fieldset.contact-information {
+	margin-left: 4px;
+	padding-bottom: 3px;
+	width: 315px;
+
+}
+
+fieldset.questions {
+	margin-left: 4px;
+	padding-bottom: 4px;
+	width: 315px;
+
+}
+
+.submit {
+	display: grid;
+	color: var(--sheet);
+}
+
+#submit {
+	font-size: 20px;
+	background-color: var(--button);
+	color: var(--black);
+	padding: 4px;
+	margin-left: 18%;
+	font-family: cambria;
+	letter-spacing: 3%;
+	font-weight: bold;
+	width: 50%;
+}
+
+#submit:hover {
+	background-color: var(--hover);
+}
+
+legend {
+	padding: 0.5rem;
+	font-family: verdana;
+	color: var(--legend);
+	font-size: 18px;
+}
+
+footer {
+	margin-top: 42px;
+	font-family: times;
+	color: var(--ends);
+	font-size: 14.4px;
+}
