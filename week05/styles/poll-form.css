@@ -21,11 +21,11 @@
 body {
 	margin-top: 12px;
 	display: grid;
+	grid-template: 1fr, auto, 1fr/1fr, auto, 1fr
 }
 
 .center {
-	grid-column: 2;
-	width: 400px;
+	grid-area: 2/2/3/3;
 	font-size: 16px;
 }
 
