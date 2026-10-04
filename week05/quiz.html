@@ -4,25 +4,74 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>WDD 130 | Quiz Form</title>
+	<link rel="stylesheet" href="styles/quiz.css">
 </head>
 
-<header></header>
-<h1></h1>
-
 <body>
-	<form>
-		<label><input type="text" name="q1" id="q1" placeholder="text"></label>
-		<label><input type="textarea" name="q2" id="q2" placeholder="text"></label>
-		<label>
-			<select name="q3" id="q3">
-				<option value=""></option>
-			</select>
-		</label>
-		<label for="number"><input type="number" name="q4" id="q4" placeholder="number"></label>
-		<button>SUBMIT</button>
-	</form>
+	<header>
+		<nav>
+			<a class="a" href="/index.html">Index</a>
+			<a href="/wwr/about.html">About Us</a>
+		</nav>
+	</header>
+	<br>
+	<main>
+		<h1>Basic HTML and CSS Quiz*</h1>
+		<form action="">
+			<!-- Q1 | TEXT -->
+			<div class="quiz-item box">
+				<label>1. How do you link "pg.css" to "pg.html" <br>(both in the same folder)
+					using
+					code?<br><br>
+					<input type="text" name="q1" id="q1" placeholder="line of code" class="input"
+					  required>
+				</label>
+			</div>
+			<!-- Q2 || TEXTAREA -->
+			<div class="quiz-item box">
+				<label><br>2. How does HTML and CSS differ in purpose <br>and how do they
+					interact
+					together?<br><br>
+					<textarea type="text" name="q2" id="q2" placeholder="paragraph" class="input"
+					  required></textarea>
+				</label>
+			</div>
+			<!-- Q3 ||| DROPDOWN -->
+			<div class="quiz-item box">
+				<label><br>3. Which is a valid way to include the classes <br>"Α" and "Ω" in a
+					CSS
+					selector?<br><br>
+					<select name="q3" id="q3" class="input">
+						<option value="" selected disabled></option>
+						<option value="1">Α Ω </option>
+						<option value="2">Α, Ω </option>
+						<option value="3">Α/Ω </option>
+						<option value="5">.Α .Ω </option>
+						<option value="5">.Α, .Ω </option>
+						<option value="6">.Α/.Ω </option>
+						<option value="7">#Α #Ω </option>
+						<option value="8">#Α, #Ω </option>
+						<option value="9">#Α/#Ω </option>
+						<option value="10">"Α" and "Ω" </option>
+						<option value="11">class="Α" and class="Ω" </option>
+						<option value="12">if class==("Α" or "Ω"):
+						<option>
+					</select>
+				</label>
+			</div><br>
+			<!-- Q4 |||| NUMBER -->
+			<div class="quiz-item box">
+				<label for="number">4. What is ‘‘BE’’ in base-10?<br><br>
+					<input type="number" name="q4" id="q4" class="input" placeholder="number">
+				</label>
+			</div>
+			<!-- SUBMIT BUTTON -->
+			<br><button type="submit">Submit Quiz</button><br>
+		</form>
+	</main>
+	<br>
+	<footer>2026 | Carson K. Cannon | WDD130 </footer>
 </body>
-<footer></footer>
 
 </html>
