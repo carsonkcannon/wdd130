@@ -266,10 +266,13 @@ form {
 }
 
 #contact-info, #employee-profiles {
-	background-color: var(--secondary-color)
-}
-
-#contact-info, #employee-profiles {
+	background-color: var(--secondary-color);
 	display: grid;
 	text-align: center;
+	padding: 16px 0px;
+}
+
+#h2c-ep {
+	font-size: 27px;
+	font-family: cambria;
 }
