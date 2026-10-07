@@ -10,8 +10,12 @@ content: ; the stuff (to frame)
 	--secondary-color: #ffe2feff;
 	--accent-color1: #003080c8;
 	--accent-color2: #ffffffff;
+	--white: #ffffffff;
+	--black: #000000ff;
 	--heading-font: "Times New Roman", "Georgia", serif;
 	--body-font: Arial, Helvetica, sans-serif;
+	--hover-fill: #0000d8;
+
 }
 
 header {
@@ -57,7 +61,8 @@ header .flex-item {
 
 body {
 	font-family: var(--body-font);
-	color: var(--accent1-color);
+	background-color: var(--white);
+	color: var(--black)
 }
 
 header, main, footer {
@@ -66,7 +71,7 @@ header, main, footer {
 	/*font-size: auto;*/
 }
 
-h1, h2 {
+.h1a, .h2a {
 	font-family: var(--heading-font);
 	color: var(--primary-color);
 	text-align: center;
@@ -74,7 +79,7 @@ h1, h2 {
 	padding: 3px;
 }
 
-nav, p, section, article {
+nav, #the-source, .sectiona, .articlea {
 	margin: -4px;
 	padding: 20px;
 }
@@ -96,10 +101,16 @@ nav, p, section, article {
 	align-items: center;
 }
 
+.history-flex-container {
+	display: flex;
+	gap: 8px;
+}
+
 .history-img {
 	width: 30%;
 	height: auto;
 	align-self: center;
+	margin-left: -4px;
 }
 
 section img nav {
@@ -122,7 +133,7 @@ section img nav {
 }
 
 /*.hero*/
-h1 {
+.h1a {
 	/*the title of the hero section:
 	"White River Rafting"*/
 	position: absolute;
@@ -198,4 +209,36 @@ footer {
 .instagram {
 	top: 0px;
 	left: 70%;
+}
+
+/*                  */
+
+/*For "Contact.html"*/
+
+/* 60               */
+
+#employee-profiles {
+	display: grid;
+	grid-template: 1fr/repeat(3, 128px);
+	text-align: center;
+	gap: 16px;
+}
+
+#employee-profiles img {
+	width: 128px;
+	height: auto;
+}
+
+#form button {
+	font-size: 21px;
+	font-family: cambria;
+	font-weight: bold;
+	padding: 4px 8px;
+	color: var(--white);
+	background-color: var(--primary-color);
+}
+
+#form button:hover {
+	background-color: var(--hover-fill);
+	color: var(--white);
 }

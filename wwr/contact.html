@@ -1,5 +1,6 @@
 <!--I made minor tweaks to "about.html".
-  mainly to make the history section connect with the HQ location I chose.-->
+  - to make the history section connect with the HQ location I chose.
+  -to add classes which is there tag plus "a" and changed their css to the add a dot at the beginning and an a at the end, to prevent css from applying to two files what ought only be applied to one-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,37 +35,72 @@
 					Contact Us</a>
 			</div>
 		</nav>
-	</header>
+	</header><br>
 
-	<main>
-		<section class="contact-info">
-			<h1 class="co-name" id="co-1">White Water Rafting Company</h1>
-			<div class="co-street" id="co-2">743 Shoshone St S</div>
-			<div class="co-city" id="co-3">Twin Falls, Idaho (USA)</div>
-			<div class="co-phone" id="co-4">+1 (200) 432-4489</div>
-			<div class="co-mail" id="co-5">info@whitewater.com</div>
-
-			<div class="map" id="left-of-form">
+	<main><!--class="mainc"-->
+		<section id="contact-info">
+			<h1 class="company-name" id="co-1">White Water Rafting Company</h1>
+			<div class="company-street" id="co-2">743 Shoshone St S</div>
+			<div class="company-city" id="co-3">Twin Falls, Idaho (USA)</div>
+			<div class="company-phone" id="co-4">+1 (200) 432-4489</div>
+			<div class="company-email" id="co-5">info@whitewater.com</div>
+			<div class="map" id="left-of-form"><br>
 				<!--iframe not count for page weight (in kb)-->
 				<iframe
 				  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6539.736604887631!2d-114.47732511103759!3d42.55134815968841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aca30b985e8f03%3A0x5aeb49d3f2afd4f6!2s743%20Shoshone%20St%20S%2C%20Twin%20Falls%2C%20ID%2083301!5e0!3m2!1sen!2sus!4v1791263081517!5m2!1sen!2sus"
 				  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
 				  referrerpolicy="strict-origin-when-cross-origin">
 				</iframe>
-			</div>
+			</div><br>
 		</section>
 
-		<section class="form">
-		</section>
+		<section id="form">
+			<!-- FULL NAME -->
+			<div class="form-name">
+				<label>Name:<br><input type="text" name="name" id="name"></label>
+			</div><br>
+			<!-- EMAIL ADDRESS -->
+			<div class="form-email">
+				<label>Email:<br><input type="email" name="email" id="email"></label>
+			</div><br>
+			<!-- MULTIPLE CHOICE -->
+			<div class="f-radio">
+				<label class="radio-choices">Reason for message:<br>
+					<label><input type="radio" name="f-rad">General Inquiry</label><br>
+					<label><input type="radio" name="f-rad">Reservation Question</label><br>
+					<label><input type="radio" name="f-rad">Website Suggestion</label><br>
+					<label><input type="radio" name="f-rad">Waiver Question</label><br>
+					<label><input type="radio" name="f-rad">Volunteering Question</label><br>
+					<label><input type="radio" name="f-rad">Other</label>
+				</label>
+			</div><br>
+			<!-- TEXT-AREA -->
+			<div class="form-textarea">
+				<label>Message:<br><textarea name="text" id="textarea"></textarea></label>
+			</div><br>
+			<!-- SUBMIT BUTTON -->
+			<button type="submit">Send Form</button>
+		</section><br>
 
-		<section class="employee-profiles">
-			<div> <img src="images/worker1.jpg"
+		<section id="employee-profiles">
+			<figure>
+				<img src="images/worker1.jpg"
 				  alt=" description: joyful white elderly male in a blue life-jacket against a green blurry background | photographer: name='Israel Torres' place='Mexico City' username='israwmx' | sourced from: 'Pexels'">
-			</div>
-			<div><img src="images/worker2.jpg" alt="(young polynesian?) women "></div>
-			<div></div>
+				<figcaption>Expos Musex</figcaption>
+			</figure>
+			<figure>
+				<img src="images/worker2.jpg"
+				  alt="(young polynesian?)  women with white flowers in her dark curly hair, against a flat light blue #ADD8E6 background | sourced from: Pravatar"><img>
+				<figcaption>Molli Tiadi</figcaption>
+			</figure>
+			<figure>
+				<img src="images/worker3.jpg"
+				  alt=" black and white image of handsome young-ish man in  buisness-casual clothes (face resembles Tony Stark) against flat medium gray #808080 background | sourced from: Pravatar">
+				<figcaption>Voluptat Esmoles</figcaption>
+			</figure>
 		</section>
-	</main>
+	</main><br>
+
 
 	<footer>
 		<p class="source">©, 2026, White Water Rafting, Carson K. Cannon</p>
