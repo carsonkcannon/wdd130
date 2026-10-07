@@ -79,7 +79,7 @@ header, main, footer {
 	padding: 3px;
 }
 
-nav, #the-source, .sectiona, .articlea {
+nav, .source, .sectiona, .articlea {
 	margin: -4px;
 	padding: 20px;
 }
@@ -221,7 +221,7 @@ footer {
 	display: grid;
 	grid-template: 1fr/repeat(3, 128px);
 	text-align: center;
-	gap: 16px;
+	gap: 24px;
 }
 
 #employee-profiles img {
