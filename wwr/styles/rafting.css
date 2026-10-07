@@ -217,11 +217,38 @@ footer {
 
 /* 60               */
 
-#employee-profiles {
+#form button:hover {
+	background-color: var(--hover-fill);
+	color: var(--white);
+}
+
+iframe {
+	width: 75%;
+	height: 100%;
+}
+
+#grid-container-de-duo {
+	display: grid;
+	grid-template-columns: 1fr, 1fr
+}
+
+#iframe {
+	grid-column: 1;
+}
+
+#form {
+	grid-column: 2;
+}
+
+form {
+	height: auto;
+}
+
+#workers {
 	display: grid;
 	grid-template: 1fr/repeat(3, 128px);
-	text-align: center;
-	gap: 24px;
+	justify-content: center;
+	gap: 64px;
 }
 
 #employee-profiles img {
@@ -238,7 +265,11 @@ footer {
 	background-color: var(--primary-color);
 }
 
-#form button:hover {
-	background-color: var(--hover-fill);
-	color: var(--white);
+#contact-info, #employee-profiles {
+	background-color: var(--secondary-color)
+}
+
+#contact-info, #employee-profiles {
+	display: grid;
+	text-align: center;
 }

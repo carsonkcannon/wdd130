@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="styles/rafting.css">
 	<title>White Water Rafting | Contact Us</title>
 	<meta name="description"
-	  content="'Contact Us' page, a form, on 'White Water Rafting Company' website | main sections: company 'contact-info', 'form' fields to fill out, 'employee-profiles'">
+	  content="'Contact Us' page, a form, on 'White Water Rafting Company' website | main sections: company 'contact-info', 'map' and 'form' fields, 'employee-profiles'">
 	<meta name="author" content="Carson K. Cannon">
 </head>
 
@@ -38,72 +38,93 @@
 	</header><br>
 
 	<main><!--class="mainc"-->
+		<!-- |CONTACT INFO| -->
 		<section id="contact-info">
-			<h1 class="company-name" id="co-1">White Water Rafting Company</h1>
-			<div class="company-street" id="co-2">743 Shoshone St S</div>
-			<div class="company-city" id="co-3">Twin Falls, Idaho (USA)</div>
-			<div class="company-phone" id="co-4">+1 (200) 432-4489</div>
-			<div class="company-email" id="co-5">info@whitewater.com</div>
-			<div class="map" id="left-of-form"><br>
+			<div class="contact-info-subsection" id="co-card">
+				<h1 class="company-name" id="co-1">White Water Rafting Company</h1>
+
+				<div class="company-street" id="co-2">743 Shoshone St S</div>
+				<div class="company-city" id="co-3">Twin Falls, Idaho (USA)</div>
+				<div class="company-phone" id="co-4">+1 (200) 432-4489</div>
+				<div class="company-email" id="co-5">info@whitewater.com</div>
+			</div><br>
+		</section>
+		<br>
+		<div id="grid-container-de-duo" class="contains-'map'-section-and-'form'-section">
+			<section id="map" class="left-of-form">
 				<!--iframe not count for page weight (in kb)-->
 				<iframe
 				  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6539.736604887631!2d-114.47732511103759!3d42.55134815968841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aca30b985e8f03%3A0x5aeb49d3f2afd4f6!2s743%20Shoshone%20St%20S%2C%20Twin%20Falls%2C%20ID%2083301!5e0!3m2!1sen!2sus!4v1791263081517!5m2!1sen!2sus"
 				  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
 				  referrerpolicy="strict-origin-when-cross-origin">
 				</iframe>
-			</div><br>
-		</section>
+			</section>
 
-		<section id="form">
-			<form>
-				<!-- FULL NAME -->
-				<div class="form-name">
-					<label>Name:<br><input type="text" name="name" id="name">
-					</label>
-				</div><br>
-				<!-- EMAIL ADDRESS -->
-				<div class="form-email">
-					<label>Email:<br><input type="email" name="email" id="email">
-					</label>
-				</div><br>
-				<!-- MULTIPLE CHOICE -->
-				<div class="radios">
-					<label class="radios-header" id="hrad">Reason for message:<br></label>
-					<label><input type="radio" name="rad" id="rad1">General Inquiry</label><br>
-					<label><input type="radio" name="rad" id="rad2">Reservation Question</label><br>
-					<label><input type="radio" name="rad" id="rad3">Website Suggestion</label><br>
-				</div><br>
-				<div class="checkbox">
-					<label>Please subscribe me to the<br>
-						monthly newsletter:
-						<input type="checkbox" name="check" id="check"></label>
-				</div><br>
-				<!-- TEXT-AREA -->
-				<div class="textarea">
-					<label>Message:<br><textarea name="text" id="textarea"></textarea></label>
-				</div><br>
-				<!-- SUBMIT BUTTON -->
-				<button type="submit">Send Form</button>
-			</form>
-		</section><br>
+			<section id="form">
+				<form>
+					<!-- FULL NAME -->
+					<div class="form-name">
+						<label>Name: <input type="text" name="name" id="name"
+							  placeholder="first-name last-name">
+						</label>
+					</div><br>
+					<!-- EMAIL ADDRESS -->
+					<div class="form-email">
+						<label>Email: <input type="email" name="email" id="email"
+							  placeholder="lowercase@lowercase" required>
+						</label>
+					</div><br>
+					<!-- MULTIPLE CHOICE -->
+					<div class="radios">
+						<label class="radios-header" name="radio" id="hrad">Reason for
+							message:<br></label>
+						<label><input type="radio" name="radio" id="rad1">General
+							Inquiry</label><br>
+						<label><input type="radio" name="radio" id="rad2">Reservation
+							Question</label><br>
+						<label><input type="radio" name="radio" id="rad3">Website
+							Suggestion</label><br>
+					</div><br>
+					<div class="checkbox">
+						<label>Please subscribe me to the<br>
+							monthly newsletter:
+							<input type="checkbox" name="check" id="check"></label>
+					</div><br>
+					<!-- TEXT-AREA -->
+					<div class="textarea">
+						<label>Message:<br><textarea name="textarea" id="textarea"
+							  placeholder="Paragraph is paragraph!"></textarea></label>
+					</div><br>
+					<!-- SUBMIT BUTTON -->
+					<button type="submit">Send Form</button>
+				</form>
+			</section><br>
+
+		</div>
 
 		<section id="employee-profiles">
-			<figure>
-				<img src="images/worker1.jpg"
-				  alt=" description: joyful white elderly male in a blue life-jacket against a green blurry background | photographer: name='Israel Torres' place='Mexico City' username='israwmx' | sourced from: 'Pexels'">
-				<figcaption>Expos Musex</figcaption>
-			</figure>
-			<figure>
-				<img src="images/worker2.jpg"
-				  alt="(young polynesian?)  women with white flowers in her dark curly hair, against a flat light blue #ADD8E6 background | sourced from: Pravatar">
-				<figcaption>Molli Tiadi</figcaption>
-			</figure>
-			<figure>
-				<img src="images/worker3.jpg"
-				  alt=" black and white image of handsome young-ish man in  buisness-casual clothes (face resembles Tony Stark) against flat medium gray #808080 background | sourced from: Pravatar">
-				<figcaption>Voluptat Esmoles</figcaption>
-			</figure>
+			<h2>We Are Here to Serve You</h2><br>
+			<div class="employee-profiles-subsection" id="workers">
+				<figure>
+					<img src="images/worker1.jpg"
+					  alt=" description: joyful white elderly male in a blue life-jacket against a green blurry background | photographer: name='Israel Torres' place='Mexico City' username='israwmx' | sourced from: 'Pexels'">
+					<figcaption>Expos Musex</figcaption>
+				</figure>
+				<figure>
+					<img src="images/worker2.jpg"
+					  alt="(young polynesian?)  women with white flowers in her dark curly hair, against a flat light blue #ADD8E6 background | sourced from: Pravatar">
+					<figcaption>Molli Tiadi</figcaption>
+				</figure>
+				<figure>
+					<img src="images/worker3.jpg"
+					  alt=" black and white image of handsome young-ish man in  buisness-casual clothes (face resembles Tony Stark) against flat medium gray #808080 background | sourced from: Pravatar">
+					<figcaption>Voluptat Esmoles</figcaption><br>
+				</figure>
+			</div>
+
 		</section>
+
+
 	</main><br>
 
 
