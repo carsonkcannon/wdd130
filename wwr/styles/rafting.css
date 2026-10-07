@@ -229,7 +229,7 @@ iframe {
 
 #grid-container-de-duo {
 	display: grid;
-	grid-template-columns: 1fr, 1fr
+	/* grid-template-columns: 1fr 1fr; */
 }
 
 #iframe {
