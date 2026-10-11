@@ -360,6 +360,37 @@ iframe {
 
 /* // / largely for "trips.html" / //*/
 
+.grid-for-the-main-t {
+	display: grid;
+	grid-template-rows: auto, auto, auto;
+}
+
+.has-table-t {
+	grid-row: 2;
+
+}
+
+.swap-1t {
+	grid-row: 1;
+}
+
+.has-table-t h1 {
+	justify-self: center;
+	margin: 36px 0px 8px 0px;
+}
+
+/*.table-minus-heading-t*/
+.table-t {
+	border-collapse: collapse;
+	/* background-color: var(--white); */
+	border: 2px solid var(--form-grey);
+	width: 99.9%;
+}
+
+.table-t thead {
+	text-align: left;
+}
+
 .call-to-action-t p {
 	font-size: 24px;
 	font-family: cambria;
@@ -375,8 +406,13 @@ iframe {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: repeat(10, 1fr);
-	column-gap: 16px;
+	column-gap: 0px;
 	margin-right: 16px;
+}
+
+.grid-container-t h2 {
+	text-align: center;
+	font-size: 21px;
 }
 
 .col-t {
@@ -395,7 +431,7 @@ iframe {
 .col-t img {
 	grid-row: 1;
 	height: auto;
-	width: 214px;
+	width: 195px;
 }
 
 .col-t hgroup {
