@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 8px;
+	display: border-box;
+}
+
+:root {
+	font-size: 96px;
+	height: 100vh;
+	width: 100vw;
+}
+
+.a-a {
+	width: 112px;
+	background-color: hsl(180, 0%, 90%);
+	padding: 16px 16px 32px 16px;
+	order: 1;
+}
+
+.b-b {
+	width: 112px;
+	background-color: hsl(180, 100%, 90%);
+	padding: 8px 24px 16px 8px;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+ 
+.p-6 {
+	position: sticky;
+}
+
+.c-c {
+	background-color: hsl(180, 0%, 90%);
+	height: 232px;
+	order: 1;
+}
+
+
+
+
+.p-6{
+	background-color: none;
+	padding: 0em 32em 32em 0px;
+}
